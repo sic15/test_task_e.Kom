@@ -1,0 +1,32 @@
+{"_default": 
+    {"1": {
+        "name": "Form 1", 
+        "user_email": "email", 
+        "user_phone": "phone",
+        "user_name": "text",
+        "user_birthday": "date"
+        }, 
+     "2": {
+        "name": "Form 2", 
+        "order_date": "date", 
+        "order_number": "text"},
+     "3": {
+        "name": "Form 3", 
+        "client_phone": "phone", 
+        "client_name": "text",
+        "message": "text"}, 
+     "4": {
+        "name": "Form 4", 
+        "user_email": "email", 
+        "user_phone": "phone",
+        "user_name": "text"},
+     "5": {
+        "name": "Form 5",
+        "email": "email", 
+        "response date": "date"}, 
+     "6": {
+        "name": "Form 6", 
+        "call_result": "text", 
+        "phone_number": "phone"}
+    }
+}
