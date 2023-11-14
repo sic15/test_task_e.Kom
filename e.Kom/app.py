@@ -3,7 +3,6 @@ from tinydb import TinyDB
 from datetime import datetime
 import re
 
-
 app = Flask(__name__)
 db = TinyDB('templates.json')
 
@@ -31,7 +30,7 @@ def find_template(form_data):
             typed_fields = type_fields(form_data)
             if all(template[t] == typed_fields[t] for t in template_fields):
                 return template
-            return None 
+            return None
 
 
 def type_fields(form_data):
@@ -47,6 +46,7 @@ def type_fields(form_data):
         else:
             field_types[field] = "text"
     return field_types
+
 
 def is_valid_date(date_str):
     """Проверка валидности даты."""
