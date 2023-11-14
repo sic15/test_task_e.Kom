@@ -8,20 +8,22 @@
 1. Клонировать репозиторий:
 `git clone git@github.com:sic15/test_task_e.Kom.git`
 
-2. Перейти в папку test_task_e.Kom:
-`cd e.Kom`
+2. Перейти в папку test_task_e.Kom/e.Kom:
+`cd test_task_e.Kom/e.Kom`
 
 3. Cоздать и активировать виртуальное окружение:
-`python -m venv venv source venv/scripts/activate`
+`python -m venv venv`
+`source venv/scripts/activate`
 
-4. Обновить pip и установить зависимости из файла requirements.txt:
-`python -m pip install --upgrade pip pip install -r requirements.txt`
+5. Обновить pip и установить зависимости из файла requirements.txt:
+`python -m pip install --upgrade pip`
+`pip install -r requirements.txt`
 
-5. Запустить Flask-приложение:
+7. Запустить Flask-приложение:
 `python app.py`
 Приложение будет доступно по адресу http://localhost:5000
 
-6. Для отправки тестовых запросов используйте скрипт test.py:
+8. Для отправки тестовых запросов используйте в другом терминале скрипт test.py:
 `python test.py`
 Для ручного тестирования можно использовать Postman
 
